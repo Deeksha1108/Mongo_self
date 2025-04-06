@@ -5,6 +5,13 @@ db.inventory.insertOne({
   size: { h: 28, w: 35.5, uom: 'cm' }
 })
 
+db.inventory.insertOne({
+  item: 'guava',
+  qty: 40,
+  tags: ['silk'],
+  size: { h: 10, w: 32.5, uom: 'm' }
+})
+
 // db.inventory.insertMany([
 //   {
 //     item: 'canvas1',
